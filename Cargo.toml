@@ -1,0 +1,10 @@
+[package]
+name = "memdumper-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+goblin = "0.9.3"
+mio = "1.0.3"
+tokio = { version = "1", features = ["full"] }
+winapi = {version = "0.3", features = ["psapi", "processthreadsapi", "winuser", "handleapi", "winnt", "libloaderapi", "shellapi"] }
