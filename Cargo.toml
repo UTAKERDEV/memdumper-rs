@@ -4,4 +4,12 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-winapi = {version = "0.3", features = ["psapi", "processthreadsapi", "winuser", "handleapi", "winnt", "libloaderapi", "shellapi"] }
+winapi = {version = "0.3", features = [
+    "psapi", 
+    "processthreadsapi", 
+    "winuser", 
+    "handleapi", 
+    "winnt", 
+    "libloaderapi", 
+    "shellapi"
+]}
